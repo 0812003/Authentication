@@ -1,4 +1,5 @@
 📝 Notes App
+
 A simple and secure web app that allows users to:
 Register and login using email/password or Google OAuth
 Add, view, and delete personal notes
