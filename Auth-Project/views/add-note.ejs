@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Add Note</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+<body>
+    <h2 class="text-2xl font-bold text-center mb-6 p-2">Add New Note</h2>
+
+<form action="/add-note" method="POST" class="max-w-md mx-auto p-6 bg-white shadow-lg rounded">
+  <input 
+    type="text" 
+    name="title" 
+    placeholder="Title" 
+    required 
+    class="block w-full mt-4 p-3 border border-[#ddd] rounded-md text-lg"
+  />
+
+  <textarea 
+    name="content" 
+    placeholder="Content" 
+    required 
+    class="block w-full mt-4 p-3 border border-[#ddd] rounded-md text-lg"
+  ></textarea>
+
+  <button 
+    type="submit" 
+    class="bg-[#2980b9] text-white cursor-pointer px-4 py-3 rounded-md hover:bg-[#2471a3] transition w-full mt-4"
+  >
+    Add
+  </button>
+</form>
+
+    <div class="my-6 text-center">
+  <a href="/dashboard" class="text-blue-600 hover:text-blue-800 font-medium underline transition">
+    ← Back to Dashboard
+  </a>
+</div>
+</body>
+
+</html>
