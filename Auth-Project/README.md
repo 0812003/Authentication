@@ -58,5 +58,6 @@ Visit: http://localhost:3000
 - Google login uses secure OAuth2
 - Sessions stored safely using express-session
 
-📬 Contact
+🧑🏻‍💻Author
+
 Made by Soham Sangare
