@@ -7,17 +7,11 @@ Protect data with authentication using Passport.js
 Store everything in MongoDB with Mongoose
 
 🔐 Features
-
 ✅ User registration with hashed passwords (bcrypt)
-
 ✅ Google OAuth 2.0 login
-
 ✅ Persistent login sessions with Passport.js
-
 ✅ Add / View / Delete personal notes
-
 ✅ Flash messages for errors (e.g. wrong password, unregistered email)
-
 ✅ Responsive UI with Tailwind CSS
 
 
