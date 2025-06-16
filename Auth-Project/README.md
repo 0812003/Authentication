@@ -16,10 +16,10 @@ Store everything in MongoDB with Mongoose
 
 
 📦 Tech Stack
--Frontend: EJS + Tailwind CSS
--Backend: Node.js + Express
--Database: MongoDB + Mongoose
--Auth: Passport.js (Local & Google OAuth)
+- Frontend: EJS + Tailwind CSS
+- Backend: Node.js + Express
+- Database: MongoDB + Mongoose
+- Auth: Passport.js (Local & Google OAuth)
 
 
 🚀 Getting Started
